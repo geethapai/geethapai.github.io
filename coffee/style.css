@@ -410,10 +410,12 @@ table {
 
 body {
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+
 }
 
 img {
     float: left;
+    width: 100%;
 }
 
 h2 {
@@ -429,38 +431,38 @@ a {
 
 footer {
         float: left;
-        width: 69%;
+        width: 100%;
 }
 
 .left-content {
               float: left;
-              width: 35%;
+              width: 45%;
               text-align: center;
-              margin: 5px;
-              padding: 5px;
+              margin: 20px;
+              padding: 10px;
 }
 
 .right-content {
               float: left;
-              width: 35%;
+              width: 45%;
               text-align: center;
-              margin: 5px;
-              padding: 5px;
+              margin: 20px;
+              padding: 10px;
 }
 
 #top-menu {
 					 color: #c09559;
 					 background-color: #2c2111;
-					 padding: 10px;
+					 /* padding: 10px;*/
 					 font-size: 18px;
            float: left;
-           width: 70%;
+           width: 100%;
            text-align: center;
 }
 
 #top-menu li {
 							display: inline;
-							margin-right: 10px;
+							margin: 10px;
 							list-style-type: none;
 }
 
