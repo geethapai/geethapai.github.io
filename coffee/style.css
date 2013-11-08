@@ -410,7 +410,6 @@ table {
 
 body {
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-
 }
 
 img {
@@ -427,6 +426,7 @@ h2 {
 a {
 	color: #aa916e;
 	text-decoration: none;
+  display: inline-block;
 }
 
 footer {
@@ -436,17 +436,17 @@ footer {
 
 .left-content {
               float: left;
-              width: 45%;
+              width: 48%;
               text-align: center;
-              margin: 20px;
+              margin: auto;
               padding: 10px;
 }
 
 .right-content {
               float: left;
-              width: 45%;
+              width: 49%;
               text-align: center;
-              margin: 20px;
+              margin: auto;
               padding: 10px;
 }
 
@@ -464,6 +464,10 @@ footer {
 							display: inline;
 							margin: 10px;
 							list-style-type: none;
+}
+
+#top-menu li:first-child {
+  margin: 0;
 }
 
 .bottom {
