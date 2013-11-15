@@ -440,7 +440,8 @@ nav {
 aside {
   float: left;
   width: 35%;
-  line-height: 20px;
+  line-height: 1.5em; */
+  padding-right: 5%;
 }
 
 section {
@@ -458,7 +459,7 @@ footer {
 #blog-title {
              font-family: 'league_gothicregular';
              text-transform: uppercase;
-             font-size: 70px;
+             font-size: 4.375em;
              float: left;
              width: 50%; 
              margin: auto;
@@ -486,11 +487,10 @@ footer {
 
 .date {
     	font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
-      font-size: 12px;
+      font-size: .75em;
     	font-weight: bold;
       margin-top: 5px;
       margin-bottom: 0;
-
 }
 
 a {
@@ -509,27 +509,26 @@ p li {
              margin-bottom: 5px;
 }
 
-.posts {
-        /*float: left;*/
-        /*width: 70%;*/
+
+@media screen and (max-width:600px) {
+  #sidebar {
+    width: 95%;
+  }
+  .posts {
+    width: 95%;
+  }
 }
 
-footer {
-        /*float: left;*/
 
-}
+/*@media and (min-width: 600px) {
+  aside {
+              clear:both;
+    }
+  .posts {
+            clear:both;
+  }
 
-/*  test...
-.posts {
-        width: 500px;
-        margin: 20px auto;
-        -webkit-box-sizing: border-box;
-           -moz-box-sizing: border-box;
-                box-sizing: border-box;
-}
-*/
-
-
+}*/
 
 
 
