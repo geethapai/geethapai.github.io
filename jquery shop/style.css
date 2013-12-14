@@ -1,0 +1,53 @@
+
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+
+
+.products {
+	margin-left: 5%;
+}
+.product {
+  min-height:250px;
+  width: 65%;
+  margin-bottom: 8%;
+}
+
+.product img {
+  float:left;
+}
+
+a {
+	text-decoration: none;
+	color: #1C86EE;
+}
+
+a:visited {
+	color: #1C86EE;
+}
+
+header {
+	width: 100%;
+	float: left;
+}
+
+h1 {
+	padding: 2%;
+	width: 60%;
+	float: left;
+	font-size: 3em;
+}
+
+nav {
+	width: 30%;
+	float: left;
+	padding-top: 2%;
+
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 2%;
+	color: #1C86EE;
+}
