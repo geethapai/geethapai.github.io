@@ -64,11 +64,10 @@ body {
 .content {
 	float: left;
 	width: 90%;
-	height: 600px;
+	height: 1700px;
 	background-color: white;
-	box-shadow: 8px 8px 0px rgba(245,208,76,1); 
+	box-shadow: 10px 10px 0px rgba(245,208,76,1); 
 }
-
 
 a {
 	text-decoration: none;
@@ -129,10 +128,10 @@ li {
  	margin-bottom: 15%;
 }
 
-#contact {
+#projects {
 	float: left;
-	width: 94%;
-	height: 200px;
+	width: 95%;
+	height: 600px;
 	margin: 2%;
 	padding: 1%;
 	background-color: rgba(245,208,76,1);
@@ -141,37 +140,21 @@ li {
  	font-size: 3em; 
 }
 
-.contact {
-	float: left;
-	width: 100%;
-	margin: auto;
-}
-
-.icon {
-	float: left; 
-	width: 100%;
-	text-align: center;
-}
-
-
 h1 {
-	float: left;
-	width: 100%;
+	clear: both;
+	width: 15%;
 	padding: 1%;
-	font-family: 'Quicksand', sans-serif;
- 	color: rgba(245,208,76,1);
- 	font-size: 2em; 
 }
 
 .one {
 	float: left;
-	width: 25%;
+	width: 26%;
 	margin: 3%
 }
 
 .two {
 	float: left;
-	width: 25%;
+	width: 26%;
 	margin: 3%;
 }
 
@@ -190,7 +173,25 @@ p {
  	width: 100%;
 }
 
-h2 {
+.one h2 {
+	font-family: 'Quicksand', sans-serif;
+ 	color: black;
+ 	font-size: .5em;
+ 	float: left;
+ 	width: 100%; 
+ 	margin: 1%;
+}
+
+.two h2 {
+	font-family: 'Quicksand', sans-serif;
+ 	color: black;
+ 	font-size: .5em;
+ 	float: left;
+ 	width: 100%; 
+ 	margin: 1%;
+}
+
+.three h2 {
 	font-family: 'Quicksand', sans-serif;
  	color: black;
  	font-size: .5em;
@@ -216,9 +217,85 @@ h2 {
 
 }
 
+h2 {
+	font-family: 'Quicksand', sans-serif;
+ 	color: black;
+ 	font-size: 2em;
+ 	float: left;
+ 	width: 100%; 
+ 	margin: 1%;
+}
+
+#eitc img {
+	margin: 4%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+#inkspot img {
+	margin: auto;
+}
+
+.contact {
+	float: left;
+	width: 100%;
+	margin-top: 5%;
+}
+
+.icon {
+		float: left;
+		width: 100%;
+		margin: auto 0;
+		margin-left: 45%;
+		}
 /*media queries*/
 
 @media screen and (max-width:1300px) {
+    .logo {
+            float: left;
+            width: 60%;
+      			text-align: center;
+            font-size: 12px;
+  }
+  	.box {
+						float: left;
+						width: 40%;
+						margin: auto;
+						text-align: center;
+		}
+
+		#projects {
+						float: left;
+						width: 95%;
+						height: 1560px;
+						margin: 2%;
+						padding: 1%;
+						background-color: rgba(245,208,76,1);
+
+				}		
+		
+			.one,.two,.three {
+				float: left;
+				width: 63%;
+				margin: auto;
+				padding-bottom: 2%;
+				}
+
+			#projects p {
+				width: 350px;
+			} 
+
+				.content {
+					height: 2200px;
+			}		
+		}
+
+		
+
+
+
+@media screen and (max-width:1287px) {
     .logo {
                   float: left;
                   width: 60%;
@@ -232,15 +309,29 @@ h2 {
   								text-align: center;
 
   	}
+		#projects {
+			float: left;
+			width: 95%;
+			height: 1560px;
+			margin: 2%;
+			padding: 1%;
+			background-color: rgba(245,208,76,1);
+
+	}		
+		
+	.one,.two,.three {
+		float: left;
+		width: 63%;
+		margin: auto;
+		padding-bottom: 2%;
+		}
+
+	#projects p {
+		width: 350px;
+	} 
+
+		.content {
+			height: 2200px;
+	}		
 }
 
-@media screen and (max-width:1300px) {
-    .hello {
-                  float: left;
-                  width: 100%;
-                  font-size: 32px;
-                  text-align: center; 
-                  font-family: 'Quicksand', sans-serif;
- 									color: black;
-  }
-}
