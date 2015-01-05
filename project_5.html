@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset= utf-8>
-		<title>Geetha Pai: UX Redesign</title>
+		<title>Geetha Pai: Food Waste App</title>
 		<link rel="stylesheet" href="style.css" rel="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -23,101 +23,109 @@
 			<nav data-scroll id="top">
 				<ul>
 					<li><a href="index.html">home</a></li>
-					<li><a href="portfolio.html">portfolio</a></li>
+					<li><a data-scroll data-options="easing: linear" href="index.html#portfolio">portfolio</a></li>
 					<li><a data-scroll data-options="easing: linear" href="#icons">contact</a></li>
 				</ul>	
 			</nav>
 			<div class="project">
+				<div class="project-nav">
+					<a class="project-arrow square left" href="project_4.html"></a>
+	      	<a class="project-arrow square right" href="project_6.html"></a>
+				</div><!-- project-nav -->
+
+					<h2>How Much Food Do You Toss Out?</h2>
+					<h4>Conceptualization, Design &amp Code</h4>
+				
+
 				<figure class="items span_three_of_three">
-					<img class="intro-pic" src="images/eitc_old.jpg">
-					<figcaption>Current EITC website</figcaption>
+					<img class="prototype" src="images/mainscreen.png">
+					<figcaption>Screenshot of the final coded prototype</figcaption>
 				</figure>
 				<div class="top-arrow">
 				 <a data-scroll data-options="easing: linear" href="#top">top</a>
 				</div>	
-				<div class="project-text row">
-					<h2>UX Redesign: EITC Website</h2>
-					<p>For several years I served as a volunteer IRS tax preparer for the Boston’s Earned Income Tax Credit Coalition. The Earned Income Tax Credit is a federal credit that is eligible to people who make below a certain income level. Millions of dollars go unclaimed every year. The coalition ensures that many people who are low-income take advantage of the credit by providing free tax preparation services. In this case study, I reimagined Boston’s EITC website.</p>
+				
+				<hr>
 					
-					<h3>Problem</h3>
-					<p>The EITC Coalition’s website (<a class="para-anchors" href="http://www.bostontaxhelp.org/">bostontaxhelp.org</a>) contains a great deal of information, but it could be better organized so users can find the information they need more easily. The current site’s main page contains a lot of information about resources that are not related to the EITC, which can make it difficult to navigate. In addition, important information is scattered and difficult to read.  While the city has attempted to organize information by user type within a side navigation menu, there is also information on the main page that pertains to taxpayers, which cannot be found in the the taxpayer section. In addition, there are multiple links on the main page that pertain to the same information.</p>
+					<div class="project-text row">
+						<h3>Overview</h3>
+						<p>As part of a UX bootcamp, I designed and coded an a highly-focused, single feature application - from UX strategy, to user research to code - in just 2 weeks. I decided to focus on the problem that I and many of my peers face: throwing out food. The goal was to create a functional prototype, with a focus on functionality rather than visual design. The challenge here would be to go from a broad set of problems to building a focused product/prototype.</p>
 
-					<h3>Process</h3>
-					<p>Before diving into any wireframing, I wanted to delve deeper into the people
-					who use the site. During my time as an EITC volunteer tax preparer, I learned more about the communities I was working in and witnessed the diversity of community members who avail themselves of free tax prep services. Based on my work in the field, I developed assumptive personas based on 4 main groups who might use the EITC website to seek out information about eligibility, tax prep site locations or volunteering as a tax preparer.</p> 
-					</div><!-- project-text -->	
 
-					<figure class="items span_three_of_three">
-						<img class="wireframe" src="images/persona1.jpg">
-						<figcaption></figcaption>
-				  </figure>
+						<h3>Process</h3>
+						<ul>
+						<li>I first dove into research about the issue of food waste to understand the main challenges that people encounter and why they throw out food. Also I learned about who may be more likely to throw out food and who might actually care about this problem.</li>
+						<li>Conducted observations about food waste in the home by observing my friends throwing out food. (They thought I was observing food storing not food tossing!) I also sent out surveys to find out why people throw out food and under what circumstances.</li>
+						<li>Initially I thought the issue might partly be around food expiration dates. The user survey and research results showed that many people were either buying too much food and wasting it or cooking all their food, but having too many leftovers that they had to toss. I thought about the whole process of buying food and sketched it out. It seemed like awareness about food purchasing while at the store could be a potential direction.</li>
+						<li>I continued to refine the app. The focus continued to shift from what food you toss...to how much you actually toss. The reason for the shift: it takes way too much effort for users to enter each item they toss. Focusing on the number of items would be easier for users. The app is solely meant to bring awareness to people for a couple weeks so they can then adjust their behavior over time and build awareness before they go grocery shopping.</li>
+						</ul>
 
-				  <figure class="items span_three_of_three">
-						<img class="wireframe" src="images/persona2.jpg">
-						<figcaption></figcaption>
-				  </figure>
+						<h3>Result</h3>
+						<p>I made some sketches of the single feature app and got to coding the prototype in JavaScript, HTML and CSS. This would like be an app for a mobile device, but since I was just building an interactive prototype, I coded a web app to test my assumptions. You can click on the prototype button below. Just resize your browser to mimic using the app on a mobile device.</p>
 
-				  <figure class="items span_three_of_three">
-						<img class="wireframe" src="images/persona3.jpg">
-						<figcaption></figcaption>
-				  </figure>
-
-				  <figure class="items span_three_of_three">
-						<img class="wireframe" src="images/persona4.jpg">
-						<figcaption></figcaption>
-				  </figure>
-
-				  <div class="project-text row">
-					<h3>Result</h3>
-					<p>After thinking through the personas groups and their goals, I knew that it would be important to speak to each of those groups from the home page. My goal was also to clean up the design and make text more legible and easier to read. Furthermore, I wanted to make sure information would be easy to find – so I would use large buttons with information targeted to my four personas. The four main categories would be: </p>
-					<ul>
-					<li>Taxpayer Info: This page contains Earned Income Tax Credit eligibility requirements and a list of materials that taxpayers should bring to tax sites.</li>
-
-					<li>Free Tax Prep section: Simple page with a search function and a list of the tax prep sites in Boston. </li>
-
-					<li>Additional Resources: Contains other financial resources that do not directly pertain to EITC but are important services. </li>
-
-					<li>Volunteer Info: The EITC volunteer program is run by another Boston-area nonprofit, so this link would take the user directly to that site. </li> 
-					</ul>
-
-					<p>Below are the resulting wireframes with annotations.</p> 
+<!-- buttons -->
+				<div class="buttons">
+					<a class="btn" href="https://www.surveymonkey.com/s/8ZT9KQQ">View User Survey</a>
+					<a class="btn" href="http://geethapai.com/aux_bootcamp_challenge/">Launch Prototype</a> 
+				</div><!-- buttons -->
+				
 				</div><!-- project-text -->	
 
-				<figure class="items span_three_of_three">
-						<img class="intro-pic" src="images/wireframe1.jpg">
-						<figcaption></figcaption>
-				  </figure>
+					<hr>
 
-				  <figure class="items span_three_of_three">
-						<img class="intro-pic" src="images/wireframe2.jpg">
-						<figcaption></figcaption>
-				  </figure>
+					<div class="project-asset row">
+						<div class="asset-text">
+							<h3>Reasons Why People Throw Out Food</h3>
+							<p>After talking to potential users and doing research about food waste, I developed this chart to outline why people may throw out food and how I might test these assumptions.</p>
+						</div><!-- asset-text -->
+						
+						<figure class="items span_three_of_three">
+							<img class="intro-pic" src="images/why.png">
+							<figcaption></figcaption>
+						</figure>
+				  </div><!-- project-asset -->	
+        
+				  <hr>
 
-				  <figure class="items span_three_of_three">
-						<img class="intro-pic" src="images/wireframe3.jpg">
-						<figcaption></figcaption>
-				  </figure>
+					<div class="project-asset row">
+		         <div class="asset-text">
+		        	<h3>Process of Planning and Shopping for Food</h3>
+			        <p>Through the user surveys I learned that the main reason people were throwing out food is because they buy too much, which they don't end up using or they cooked all their food, but had more leftovers than they could eat. It became clear that I should look at building awareness about food waste before grocery shopping happens. Below is a sketch I did of the grocery shopping process.</p>
+			       </div><!-- asset-text --> 
 
-				  <figure class="items span_three_of_three">
-						<img class="intro-pic" src="images/wireframe4.jpg">
-						<figcaption></figcaption>
-				  </figure>
-			</div><!-- project -->
+		        <figure class="items span_three_of_three">
+							<img class="intro-pic" src="images/groceryprocess.png">
+							<figcaption></figcaption>
+						</figure>
+					</div><!-- project-asset -->	
 
-			<ul data-scroll id="icons">
+				<hr>
+      
+      	<div class="project-asset row">
+        	<div class="asset-text">
+		        <h3>Final App Screens</h3>
+		        <p>Initially, I thought it would be more helpful for users to see exactly what they were throwing away each week, so they could plan for the next grocery trip and hopefully buy less food. As I sketched I realized that would be way to much work for the user to enter everything they were tossing out. (I also showed my paper prototypes to potential users felt the same way.) Instead I decided to focus simply on the helping users enter the number of items they tossed per week. This would at least build a baseline awareness for people about their food waste. Users will get positive or helpful feedback depending on how they do compared to previous weeks. To see more, <a class="para-anchors" href="http://geethapai.com/aux_bootcamp_challenge/">launch prototype.</a> </p>
+		      </div><!-- asset-text -->
+					<figure class="items span_three_of_three">
+						<img class="intro-pic" src="images/all_screens.png">
+						<figcaption></figcaption>
+					</figure>
+				</div><!-- project-asset -->	
+
+			</div><!-- project -->	
+
+		   <ul data-scroll id="icons">
 				<li id="linkedin"><a href="http://www.linkedin.com/in/geethapai"><span class="icon-linkedin sm"></span></a></li>
 				<li id="email"><a href="mailto:hello@geethapai.com"><span class="icon-mail sm"></span></a></li>
 				<li id="twitter"><a href="https://twitter.com/geets_p"><span class="icon-twitter sm"></span></a></li>
 				<li id="github"><a href="https://github.com/geethapai"><span class="icon-github sm"></span></a></li>
 			</ul><!-- icons -->
 
-
 				<footer>This site was designed and coded by Geetha</footer>
-				<div class="copyright">©2014 Geetha Pai</div>
+				<div class="copyright">©2015 Geetha Pai</div>
 
 			</div><!-- end welcome -->
 		</div><!--  main container -->	
-
 		<script src="js/smooth-scroll.js"></script>
 		<script>
 	    smoothScroll.init();

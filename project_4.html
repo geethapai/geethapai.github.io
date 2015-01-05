@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset= utf-8>
-		<title>Geetha Pai: Citizens Connect - Boston</title>
+		<title>Geetha Pai: UX Redesign</title>
 		<link rel="stylesheet" href="style.css" rel="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -23,96 +23,148 @@
 			<nav data-scroll id="top">
 				<ul>
 					<li><a href="index.html">home</a></li>
-					<li><a href="portfolio.html">portfolio</a></li>
+					<li><a data-scroll data-options="easing: linear" href="index.html#portfolio">portfolio</a></li>
 					<li><a data-scroll data-options="easing: linear" href="#icons">contact</a></li>
 				</ul>	
 			</nav>
 			<div class="project">
+				<div class="project-nav">
+					<a class="project-arrow square left" href="project_3.html"></a>
+	      	<a class="project-arrow square right" href="project_5.html"></a>
+				</div><!-- project-nav -->
+
+				<h2>UX Redesign: EITC Website</h2>
+				<h4>User Personas &amp Wireframes</h4>
+
 				<figure class="items span_three_of_three">
-					<img class="intro-pic" src="images/bcc.png">
-					<figcaption>The current Citizens Connect website</figcaption>
+					<img class="intro-pic" src="images/eitcpersonas.png">
+					<figcaption>Personas I developed based on years of field experience as a volunteer tax preparer.</figcaption>
 				</figure>
 				<div class="top-arrow">
 				 <a data-scroll data-options="easing: linear" href="#top">top</a>
-				</div>
+				</div>	
+				<div class="top-arrow">
+				 <a data-scroll data-options="easing: linear" href="#top">top</a>
+				</div>	
 
+				<hr>
+	
 				<div class="project-text row">
-					<h2>Citizens Connect Redesign</h2>
-					<p>As a final apprenticeship challenge, Erica Horowitz, Hamy Pham and I were asked to redesign and build a prototype of <a class="para-anchors" href="http://www.cityofboston.gov/online_services/default.aspx">Boston’s Citizens Connect</a> website in 2 weeks. Citizens Connect is a portal on the City of Boston’s website that enables people to learn more information about city services, report an issue or request a service. Unfortunately the current website is a giant mess of links under various broad categories – it’s essentially a site map of everything on the website (see above).</p>
-					
+					<h3>Overview</h3>
+					<p>For several years I served as a volunteer IRS tax preparer for the Boston’s Earned Income Tax Credit Coalition. The Earned Income Tax Credit is a federal credit that is eligible to people who make below a certain income level. Millions of dollars go unclaimed every year. The coalition ensures that many people who are low-income take advantage of the credit by providing free tax preparation services. In this case study, I reimagined Boston’s EITC website.</p>
+
+					<h3>Problem</h3>
+					<p>The Boston EITC Coalition’s website contained a great deal of information, but it have been could be better organized so users could find the information they need more easily. The current site’s main page contained a lot of information about resources that are not related to the EITC, which made it difficult to navigate. In addition, important information was scattered and difficult to read.  While the city attempted to organize information by user type within a side navigation menu, there was also information on the main page that pertained to taxpayers, which could be found in the the taxpayer section. In addition, there were multiple links on the main page that pertained to the same information.</p>
 
 					<h3>Process</h3>
-					<p>All three of us would be involved in the entire process, but each of us would “own” a portion of the work. While all of us would work on strategy, I would own the wireframes, prototyping and user testing, Hamy would develop the visual design and Erica would execute the front-end code.</p>
-					<p><span class="bold">Information architecture:</span>Our first step was to make sense of the current site. We got together in light-filled conference rooms and started pulling apart each section of Citizens Connect. Right away, it appeared to be a convoluted mess. We noticed that each of the larger sections, like Business, included multiple types of information, like making a business complaint and information on licensing and permits.</p> 
-					</div><!-- project-text -->	
-
-					<figure class="items span_three_of_three">
-					<img class="intro-pic" src="images/parking_ticket_map.jpg">
-					<figcaption>The multitudes of paths to pay a parking ticket</figcaption>
-
-					<div class="project-text row">
-						<p>After sorting throw all the information on the site, we stepped back and mapped out how a user would experience the site when accomplishing a specific task. Based on some of the links on Boston’s main website, we knew that paying a parking ticket would be one of the main reasons someone would visit the site. It turns out that there are at least 8 ways someone can reach the parking ticket payment page (see whiteboard image), but many of the entry points are not clear based on the language. Mapping the paths helped us get a good sense of the complexity of the site. It was clear that much of the complexity was unnecessary and we were excited to make it clearer for users.</p>
-
-						<p> Next, we looked at all the various sections and sub-sections and grouped them by user goals and activity. We noticed that many of the pages on the existing site went to a form template that allows user to make a complaint or request a city service. We could also see that we would need to provide general information on many topics, many of which the user could then execute an offline action, like requesting a birth certificate. Finally, another main activity was making a payment, whether a parking ticket or paying property taxes. Our main activity buckets became: report, request, pay, understand.</p> 
-				  </div><!-- project-text -->
-
-
-				  <div class="project-text row">
-						<figure class="items span_three_of_three">
-						<img class="intro-pic" src="images/user_actions.jpg">
-						<figcaption>Groupings of User Actions based on Current Site</figcaption>
-				
-						<p>Undoubtedly, the most challenging part to this project was to sort through all the information and develop a coherent information architecture. Between our existing client work, it took us a few days to sort through how to organize all the information in a way that a user would understand it. Following the whiteboard session we knew that we would have 3 main templates: the home page, which would provide items that would be immediately actionable to the user and link to various forms, an information page for each of the larger topic areas (which we would reorganize). Those information pages would also link actionable items, which depending on their popularity, would also appear on the main page. 
-
-						<p>The tricky part was creating topic areas that would make sense to a user.  And what sort of larger umbrella would help us group these items? For guidance, we dissected the United Kingdom’s award-winning gov.uk website. While some of the groups on Boston’s website made some sense, like Garbage, Recycling and Graffiti, other groups were just too broad – like Business. We parsed through each section and came up with 15 revised groups. Then, we decided that all this information would be presented under a Services & Information section.</p>
-
-					</div><!-- project-text -->
-
-
-					<div class="project-text row">
-					<p><span class="bold">Sketching, Wireframing and User Testing:</span>Next we got together for a working session to sketch out some high-level ideas around the 3 templates. Unlike the current site, users would be greeted with a Top Actions section so that they would immediately be able to complete popular tasks. Top Actions would be broken into 4 areas: Make a Payment, Report an Issue, Request a Service and Track a Request. A search bar with autocomplete would also be critical. In addition, we wanted to make sure that Services & Information would be clear and that if users went hunting for information on one of these pages, they would still be able to take action within the context of that page. For instance, a user would be able click on “Pay a Parking Ticket” from Top Actions or from within the Transportation, Streets and Parking section.</p>
-
-					<figure class="items span_three_of_three">
-					<img class="intro-pic" src="images/CC_wireframe.gif">
-					<figcaption>Groupings of User Actions based on Current Site</figcaption>
-
-				
-					<p>Following our working session, I created wireframes showing various states for each of the pages. The next goal would be to test some of our assumptions using a prototype with clickable wireframes in Invision App. You can view the clickable prototype here: <a class="para-anchors" href="http://invis.io/RHXR1F6S"> http://invis.io/RHXR1F6S </a>. </p>
-					<p>For the user testing we wanted to validate whether both our IA groupings and page organization made sense. I came up with the following scenarios to ask users to complete using the clickable wireframes: </p>
 					<ul>
-					<li>You received a ticket while in Boston and you need to pay it. Assuming you know about this website, what would you do?</li>
-
-					<li>You have a refrigerator that no longer works and you need to get rid of it. How would you do so using this website?</li>
-
-					<li>You were walking around the city and you noticed a broken street light/lamp. What would you do if you knew about this website?</li>
-
-					<li>You just moved to Boston and need to learn about resident parking. How would you do so on this website?</li>
+						<li>Analyzed usability and IA issues on Boston EITC website</li>
+						<li>Developed personas and user goals based my years of field experience in 2 different tax prep locations</li>
+						<li>Developed wireframes based on persona goals</li>
 					</ul>
 
-					<p>I found 4 colleagues that were willing to participate in the user testing, sat down with each of them and presented the scenarios. Most people were able to complete the tasks without much confusion, however there were a couple of stumbling blocks. A few users skipped over the Top Actions section of the homepage. We decided we would make that section more prominent by creating a horizontal barrier above that section, so users eyes would be drawn to that section. I also noticed that users skipped over the table of contents anchor tags on the information pages under Services & Information. It went unnoticed because that section was floating on the right. Since it was important to keep those anchor tags to make the information pages more manageable, we decided to move that section to the left side of the screen to make it more noticeable.</p>
-					</div><!-- project-text -->
-
-					<figure class="items span_three_of_three">
-					<img class="intro-pic" src="images/final.png">
-					<figcaption>The final product</figcaption>
-
-
-					<div class="project-text row">
-					<p><span class="bold">Visual Design and Front-End Code:</span> Since we only had 2 weeks to complete this project, we knew we each had to work on our sections concurrently. I handed off the wireframes to Erica so she could start coding the basic structure of the site, while Hamy used the wireframes as a starting point for the visual design. Our goals was to make the site responsive, so I also created wireframes for smaller screens and handed those off to Erica so she could also think through that code as well. Code was implemented in a strategic way to allow for future scalability. Classes were used to define specific components of each template and accessibility standards, like WAI-ARIA, were used throughout the site. Hamy developed several guiding principles for the visual design. The aim of the visual design was to create clear visual order and use a modern, inviting tone throughout. Google Webfonts were used throughout the site, which created an open, accessible tone. In addition, since Boston’s main city website uses blue, Hamy dove into creating several blue-themed mood boards. We settled on a complementary color-scheme. </p> 
-
 					<h3>Result</h3>
-					<p>The final product is a proof-of-concept prototype website and pretty proud of it! The site structure is clear and is based on central user goals and tasks. Information is clearly laid out and top actions are also easy to find. Feel free to look at the prototype <a class="para-anchors" href="http://elhorowitz.github.io/AUX-Final-Project/">here</a>. Since this was a proof-of-concept, please ignore some of the Lorem Ipsum text!</p>
-				</div><!-- project-text -->	
+					<p>After thinking through the personas groups and their goals, I knew that it would be important to speak to each of those groups from the home page. My goal was also to clean up the design and make text more legible and easier to read. Furthermore, I wanted to make sure information would be easy to find – so I would use large buttons with information targeted to my four personas. The four main categories would be: </p>
+					
+					<ul>
+					<li>Taxpayer Info: This page contains Earned Income Tax Credit eligibility requirements and a list of materials that taxpayers should bring to tax sites.</li>
+
+					<li>Free Tax Prep section: Simple page with a search function and a list of the tax prep sites in Boston. </li>
+
+					<li>Additional Resources: Contains other financial resources that do not directly pertain to EITC but are important services. </li>
+
+					<li>Volunteer Info: The EITC volunteer program is run by another Boston-area nonprofit, so this link would take the user directly to that site. </li> 
+					</ul>
+
+					<p>Below are the resulting wireframes with annotations.</p> 
+
+					<!-- buttons -->
+					<!-- <div class="buttons">
+					<a class="btn" href="#">Launch Prototype</a>
+  				<a class="btn" href="#">Clickable Wireframes</a> 
+  				</div><!buttons -->
+
+					</div><!-- project-text -->	
+
+					<hr>
+
+					<div class="project-asset row">
+						<div class="asset-text">
+							<h3>Screenshot of EITC website</h3>
+							<p>Below I point out several issues with the Boston EITC website.</p>
+						</div><!-- asset-text -->
+						
+						<figure class="items span_three_of_three">
+							<img class="intro-pic" src="images/eitc_screenshot.png">
+							<figcaption></figcaption>
+						</figure>
+				  </div><!-- project-asset -->	
+        
+				  <hr>
+
+					<div class="project-asset row">
+		         <div class="asset-text">
+		        	<h3>Main Landing Page</h3>
+			        <p></p>
+			       </div><!-- asset-text --> 
+
+		        <figure class="items span_three_of_three">
+							<img class="intro-pic" src="images/eitc_wire1.png">
+							<figcaption></figcaption>
+						</figure>
+					</div><!-- project-asset -->	
+
+				<hr>
+      
+      	<div class="project-asset row">
+        	<div class="asset-text">
+		        <h3>Taxpayer Information Page</h3>
+		      </div><!-- asset-text -->
+					<figure class="items span_three_of_three">
+						<img class="intro-pic" src="images/eitc_wire2.png">
+						<figcaption></figcaption>
+					</figure>
+				</div><!-- project-asset -->	
+			
+				<hr>
+
+				<div class="project-asset row">
+	        <div class="asset-text">
+			       <h3>Tax Prep Site Information</h3>
+			      </div><!-- asset-text -->
+						<figure class="items span_three_of_three">
+							<img class="intro-pic" src="images/eitc_wire3.png">
+							<figcaption></figcaption>
+						</figure>
+					</div><!-- project-asset -->	
+
+				 <hr>
+
+				<div class="project-asset row">
+	        <div class="asset-text">
+			       <h3>Reorganization of Resources Information</h3>
+			       
+			      </div><!-- asset-text -->
+						<figure class="items span_three_of_three">
+							<img class="intro-pic" src="images/eitc_wire4.png">
+							<figcaption></figcaption>
+						</figure>
+					</div><!-- project-asset -->	
+
+
 			</div><!-- project -->	
-			 
+
+
 			<ul data-scroll id="icons">
 				<li id="linkedin"><a href="http://www.linkedin.com/in/geethapai"><span class="icon-linkedin sm"></span></a></li>
 				<li id="email"><a href="mailto:hello@geethapai.com"><span class="icon-mail sm"></span></a></li>
 				<li id="twitter"><a href="https://twitter.com/geets_p"><span class="icon-twitter sm"></span></a></li>
 				<li id="github"><a href="https://github.com/geethapai"><span class="icon-github sm"></span></a></li>
 			</ul><!-- icons -->
+
+
 				<footer>This site was designed and coded by Geetha</footer>
-				<div class="copyright">©2014 Geetha Pai</div>
+				<div class="copyright">©2015 Geetha Pai</div>
 
 			</div><!-- end welcome -->
 		</div><!--  main container -->	
