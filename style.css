@@ -282,6 +282,18 @@ nav a:hover::after {
 	transform: translateX(0);
 }
 
+.pdf {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.25em;
+	color: #01B8CA;
+	float: right;
+	padding: 0.5em .5em 1em 0;
+}
+
+.pdf:hover {
+	color: #FFAD00;
+}
+
 
 figure {
 	position: relative;
