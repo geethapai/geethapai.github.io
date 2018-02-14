@@ -1,0 +1,694 @@
+/* *******************************************
+GENERAL SYTLES 
+******************************************** */
+
+
+
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px; /*all subsquents ems based on 16px*/
+	color: #3C4857;
+	font-weight: 400;
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	font-size: 1.125em
+}
+
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	color: #3C4857;
+	font-weight: 700;
+}
+
+
+h2 {
+	font-family: 'Karla', sans-serif;
+	font-size: 1.5em;
+	color: #3C4857;
+	font-weight: 400; 
+	display: inline-block;
+}
+
+
+h3 {
+	font-family: 'Karla', sans-serif;
+	font-size: 1.5em;
+	color: #3C4857;
+	font-weight: 400;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+
+.headline {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5em;
+	color: #3C4857;
+	font-weight: 400;
+}
+
+
+.portfolio-titles {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.7em;
+	color: #3C4857;
+	font-weight: 400; 
+	padding-top: 10px;
+	display: inline-block;
+}
+
+
+a {
+	color: #3C4857;
+}
+
+a:hover {
+	color: #6C809A;
+}
+
+a:visited {
+	color: inherit;
+}
+
+
+.main-container {
+	max-width: 1280px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 0 1em;
+	position: relative;
+}
+
+.para-link {
+	color: inherit;
+	font-weight: 700;
+	border-bottom: 4px solid #FEE06E;
+	transition: none;
+}
+
+li {
+	margin-bottom: 20px;
+	font-size: 1.125em;
+}
+
+
+.content-margin {
+	margin-top: 40px;
+}
+
+
+
+* ==========Buttons styles============= */
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input[type="submit"].btn,
+button.btn {
+	cursor: pointer;
+}
+
+a.btn,.btn {
+  	margin-right: 1em;
+  	margin: 1em;
+	display: inline-block;
+	outline: none;
+	*zoom: 1;
+	text-align: center;
+	text-decoration: none;
+	font-family: inherit;
+	font-weight: 300;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	border: 2px solid;
+	transition: all 0.2s ease;
+	box-sizing: border-box;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+.buttons {
+	font-family: 'Karla', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn {
+	padding: 0.5375em 1.375em;
+	color: #3C4857;
+	border-color: #3C4857;
+}
+
+.btn:hover {
+  background: #FEE06E;
+  color: #3C4857;
+  border-color: #FEE06E;		
+}
+
+
+
+
+/* *******************************************
+NAVIGATION & LOGO
+******************************************** */
+
+.logo {
+	color: #3C4857;
+	font-size: 5em;
+	float: left;
+	margin: 0 20px;
+
+}
+
+.logo a {
+	color: #3C4857;
+}
+
+
+.top-bar > a:hover {
+	color: #FEE06E;
+	transition: .2s
+}
+
+
+ul {
+	display: inline-block;
+}
+
+.menu a {
+	color: #3C4857;
+}
+
+
+.menu-icon {
+	margin: 30px;
+}
+
+
+.top-bar, .top-bar ul {
+	background-color: transparent;
+}
+
+
+.title-bar {
+	background-color: transparent;	
+}
+
+.nav-link-style a:after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-top: 2px;
+    height: 3px;
+    background: #FEE06E;
+    transition: width .3s;
+}
+
+
+.nav-link-style a:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+
+.nav-link-style a {
+	color: inherit;
+} 
+
+
+
+/*===== FOOTER  ====*/
+
+
+.connect {
+	display: block;
+	margin: 100px auto 0 0;
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+.connect li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 1em;
+	margin: 0 auto;
+}
+
+
+
+.connect a:visited {
+	color: none;
+}
+
+
+.connect a::after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-top: 1px;
+    height: 3px;
+    background: #FEE06E;
+    transition: width .3s;
+}
+
+
+.connect a:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.connect a {
+	color: inherit;
+}
+
+
+.copyright {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.unicode {
+	font-size: 1.5em;
+}
+
+
+ footer {
+	width: 75%;
+	margin: 0 auto 20px;
+	padding: 1em 0 .5em;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+
+
+
+/* *******************************************
+LANDING PAGE - WELCOME HERO
+******************************************** */
+
+.wrapper {
+	background-image: url(../topography_extralight.svg);
+	height: 100%;
+	width: 100%;
+}
+
+.layer {
+    background-color: rgba(252, 224, 110, 0.33);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.welcome {
+	margin: 80px auto;
+	padding: 0 30px 0;
+}
+
+
+.name-title {
+	font-size: 5em;
+}
+
+
+.hello {
+	font-size: 1.7em;
+	font-weight: 400;
+	margin: auto 10;
+}
+
+
+.upcoming {
+	font-size: 1.5em;
+	font-weight: 400;
+	font-style: italic;
+	margin-top: 100px;
+	border: 4px dotted #FEE06E;
+	padding: 20px;
+}
+
+
+
+.learn-more a {
+	color: inherit;
+	font-weight: 700;
+	border-bottom: 4px solid #FEE06E;
+	transition: none;
+}
+
+
+/* *******************************************
+WORK & PRODUCT VERTICALS
+******************************************** */
+
+.work-wrapper {
+	background-image: url(../topography_extralight.svg);
+	width: 100%;
+	height: 500px;
+}
+
+
+.intro-wrapper {
+	background-image: url(../topography_extralight.svg);
+	width: 100%;
+	height: 400px;
+}
+
+
+.work-intro {
+	margin: 50px auto;
+	padding: 0 30px 0;
+}
+
+
+.work-intro h1 {
+	font-family: 'Playfair Display', serif;
+	display: inline-block;
+	font-size: 3em;
+	color: #3C4857;
+	font-weight: 700;
+	border-bottom: 4px solid #FEE06E;
+}
+
+
+.client-list {
+	margin-top: 10px;
+}
+
+
+
+
+
+/*======= projects section ======*/
+
+.work-pv-container {
+	margin-top: 80px;
+}
+
+.pv-container {
+	margin-top: 40px;
+}
+
+.tiles {
+	max-width: 500px;
+
+}
+
+
+.portfolio-caption {
+	max-width: 400px;
+}
+
+
+.project-title {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5em;
+	color: #3C4857;
+	font-weight: 400; 
+	padding-top: 10px;
+	display: inline-block;
+}
+
+
+
+/*====== product verticals section =====*/
+
+
+.pverticals-wrapper {
+	background-image: url(../topography_extralight.svg);
+	width: 100%;
+	height: 300px;
+	margin-top: 80px;
+}
+
+.pv-intro {
+	margin: 50px auto;
+	padding: 0 30px 0;
+}
+
+.pv-intro p {
+	width: 70%;
+	margin-top: 15px;
+	line-height: 1.6em;
+}
+
+.pv-text {
+	display: inline-block;
+}
+
+
+/* *******************************************
+PROJECT CASE STUDIES
+******************************************** */
+
+.project-intro {
+	margin: 50px auto;
+	padding: 0 30px 0;
+}
+
+.project-hero {
+	margin-bottom: 80px;
+}
+
+.project-hero > img {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+
+.main-image {
+	margin: 0 auto;
+}
+
+.subsection-text {
+	margin-bottom: 60px;
+}
+
+
+.portfolio-captions {
+	margin-top: 15px;
+}
+
+
+.project-images {
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+
+.project-images > figure {
+	margin: 0 auto;
+}
+
+.project-images > img {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.next-project {
+	display: block;
+}
+
+/*--------------------*/
+/* project navigation */
+/*--------------------*/
+
+.project-nav {
+	height: 3em;
+	clear: both;
+}
+
+
+
+.prev-next {
+	font-family: 'Karla', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	color: #3C4857;
+	font-weight: 400;
+	background-color: #FEE06E;	
+}
+
+
+.prev-next a {
+	padding-top: 5px;
+}
+
+
+.back-to-work-container {
+	margin-top: 130px;
+}
+
+
+
+.back-wpv {
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	color: #3C4857;
+	font-weight: 700; 
+	border-bottom: 4px solid #FEE06E;
+	text-align: center;	
+}
+
+
+
+
+/* *******************************************
+ABOUT
+******************************************** */
+
+
+.tldr {
+	border-bottom: 2px solid #E3E3E3;
+}
+
+.about-unicode {
+	font-size: 1em;
+}
+
+.about-headlines {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.6em;
+	color: #3C4857;
+	font-weight: 400;
+}
+
+
+
+/* *******************************************
+MEDIA QUERIES
+******************************************** */
+
+/*==== small screens ====*/
+
+
+
+@media screen and (max-width: 39.9375em) {
+   .work-wrapper {
+		background-image: url(../topography_extralight.svg);
+		width: 100%;
+		height: 550px;
+		}
+
+
+	.pverticals-wrapper {
+		background-image: url(../topography_extralight.svg);
+		width: 100%;
+		height: 350px;
+		margin-top: 80px;
+		}
+
+
+
+	.productverticals {
+		padding: 0 15px 0;
+	}	
+	
+
+
+
+	.pv-intro {
+		margin: 0 auto;
+		padding: 0 30px 0;
+		}
+
+
+
+	.pv-intro p {
+		width: 100%;
+		margin-top: 15px;
+		line-height: 1.6em;
+	}
+
+
+
+	.top-bar > a:hover {
+		color: inherit;
+		 -moz-transition: none;
+	    -webkit-transition: none;
+	    -o-transition: color 0 ease-in;
+	    transition: none;
+		}
+
+
+	.nav-link-style a:after {
+	    color: inherit;
+		 -moz-transition: none;
+	    -webkit-transition: none;
+	    -o-transition: color 0 ease-in;
+	    transition: none;
+	    background: none;
+	    }
+
+	.connect a:after {
+	    color: inherit;
+		 -moz-transition: none;
+	    -webkit-transition: none;
+	    -o-transition: color 0 ease-in;
+	    transition: none;
+	    background: none;
+	    }
+
+}
+
+@media screen and (min-width: 40em) and (max-width: 65em) {
+
+
+	.top-bar > a:hover {
+		color: inherit;
+		 -moz-transition: none;
+	    -webkit-transition: none;
+	    -o-transition: color 0 ease-in;
+	    transition: none;
+		}
+
+
+	.nav-link-style a:after {
+	    color: inherit;
+		 -moz-transition: none;
+	    -webkit-transition: none;
+	    -o-transition: color 0 ease-in;
+	    transition: none;
+	    background: none;
+	    }
+
+	.connect a:after {
+	    color: inherit;
+		 -moz-transition: none;
+	    -webkit-transition: none;
+	    -o-transition: color 0 ease-in;
+	    transition: none;
+	    background: none;
+	    }
+
+}
+
+@media screen and (max-width: 28.125em) {
+   .work-wrapper {
+		background-image: url(../topography_extralight.svg);
+		width: 100%;
+		height: 800px;
+		}
+	}
+
+
