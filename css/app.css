@@ -3,7 +3,6 @@ GENERAL SYTLES
 ******************************************** */
 
 
-
 body {
 	font-family: 'Karla', sans-serif;
 	font-size: 16px; /*all subsquents ems based on 16px*/
@@ -412,13 +411,18 @@ WORK & PRODUCT VERTICALS
 
 .tiles {
 	max-width: 500px;
-
 }
 
 
 .portfolio-caption {
 	max-width: 400px;
 }
+
+.oakdig-hero-caption {
+	margin-top: 15px;
+}
+
+
 
 
 .project-title {
@@ -506,6 +510,11 @@ PROJECT CASE STUDIES
 	display: inline-block;
 	margin: 0 auto;
 }
+
+.video-container {
+	margin-bottom: 50px;
+}
+
 
 .next-project {
 	display: block;
