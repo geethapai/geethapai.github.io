@@ -414,16 +414,10 @@ WORK & PRODUCT VERTICALS
 }
 
 
-.portfolio-caption {
-	max-width: 400px;
-}
-
 .oakdig-hero-caption {
-	margin-top: 15px;
+	margin-left: 30px;
+	margin-bottom: 50px;
 }
-
-
-
 
 .project-title {
 	font-family: 'Playfair Display', serif;
@@ -512,7 +506,7 @@ PROJECT CASE STUDIES
 }
 
 .video-container {
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 }
 
 
