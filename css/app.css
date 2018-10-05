@@ -347,6 +347,13 @@ LANDING PAGE - WELCOME HERO
 	padding: 20px;
 }
 
+.upcoming p:first-of-type {
+	margin-bottom: 25px;
+}
+
+.updates-bold {
+	font-weight: 700;
+}
 
 
 .learn-more a {
