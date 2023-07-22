@@ -766,6 +766,11 @@ MEDIA QUERIES
 		}	
 
 
+	.upcoming {
+  		font-size: 1.125em;
+  	}
+
+
 	h1 {
 		font-family: 'Playfair Display', serif;
 		font-size: 2.5em;
@@ -773,6 +778,10 @@ MEDIA QUERIES
 		font-weight: 700;
 		}
 	
+	
+	.work-intro h1 {
+		font-size: 2.5em;
+	}
 
 	.headline {
 		font-family: 'Playfair Display', serif;
