@@ -13,6 +13,11 @@ body {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 p {
 	font-size: 1.125em
 }
@@ -61,7 +66,7 @@ h3 {
 	font-size: 1.7em;
 	color: #3C4857;
 	font-weight: 400; 
-	padding-top: 10px;
+	padding-top: 20px;
 	display: inline-block;
 }
 
@@ -288,7 +293,7 @@ ul {
 }
 
 
- footer {
+footer {
 	width: 75%;
 	margin: 0 auto 20px;
 	padding: 1em 0 .5em;
@@ -319,10 +324,9 @@ LANDING PAGE - WELCOME HERO
 }
 
 
-
 .welcome {
 	margin: 80px auto;
-	padding: 0 30px 0;
+	padding: 0 30px 50px;
 }
 
 
@@ -341,8 +345,7 @@ LANDING PAGE - WELCOME HERO
 .upcoming {
 	font-size: 1.5em;
 	font-weight: 400;
-	font-style: italic;
-	margin-top: 100px;
+	margin-top: 60px;
 	border: 4px dotted #FEE06E;
 	padding: 20px;
 }
@@ -369,7 +372,7 @@ WORK & PRODUCT VERTICALS
 ******************************************** */
 
 .work-wrapper {
-	background-image: url(../topography_extralight.svg);
+	/*background-image: url(../topography_extralight.svg);*/
 	width: 100%;
 	height: 500px;
 }
@@ -383,7 +386,7 @@ WORK & PRODUCT VERTICALS
 
 
 .work-intro {
-	margin: 50px auto;
+	margin: 0 auto 20px;
 	padding: 0 30px 0;
 }
 
@@ -395,6 +398,10 @@ WORK & PRODUCT VERTICALS
 	color: #3C4857;
 	font-weight: 700;
 	border-bottom: 4px solid #FEE06E;
+}
+
+.work-intro p {
+	font-size: 1.4em;
 }
 
 
@@ -417,18 +424,26 @@ WORK & PRODUCT VERTICALS
 }
 
 .tiles {
-	max-width: 500px;
+	max-width: 545px;
 }
 
 
+.tiles img {
+	border-radius: 20px;
+}
+
+figcaption {
+	font-size: 1.2em;
+}
+
 .oakdig-hero-caption {
-	margin-left: 30px;
+	margin-left: 5%;
 	margin-bottom: 50px;
 }
 
 .project-title {
 	font-family: 'Playfair Display', serif;
-	font-size: 2.5em;
+	font-size: 1.6em;
 	color: #3C4857;
 	font-weight: 400; 
 	padding-top: 10px;
@@ -441,7 +456,7 @@ WORK & PRODUCT VERTICALS
 
 
 .pverticals-wrapper {
-	background-image: url(../topography_extralight.svg);
+	/*background-image: url(../topography_extralight.svg);*/
 	width: 100%;
 	height: 300px;
 	margin-top: 80px;
@@ -456,6 +471,7 @@ WORK & PRODUCT VERTICALS
 	width: 70%;
 	margin-top: 15px;
 	line-height: 1.6em;
+	font-size: 1.4em;
 }
 
 .pv-text {
@@ -478,8 +494,10 @@ PROJECT CASE STUDIES
 
 .project-hero > img {
 	margin: 0 auto;
-	width: 100%;
+	display: block;
+	width: 90%;
 	height: 100%;
+	border-radius: 20px;
 }
 
 
@@ -490,6 +508,12 @@ PROJECT CASE STUDIES
 .subsection-text {
 	margin-bottom: 60px;
 }
+
+
+.subsection-title h2 {
+	margin: 10px 0;
+}
+
 
 
 .portfolio-captions {
@@ -513,13 +537,24 @@ PROJECT CASE STUDIES
 }
 
 .video-container {
+	margin: 0 auto;
 	margin-bottom: 15px;
+	display: block;
+	width: 90%;
+	height: 100%;
+	border-radius: 20px;
 }
+/*Oakland digital*/
 
 
 .next-project {
 	display: block;
 }
+
+
+
+
+
 
 /*--------------------*/
 /* project navigation */
@@ -568,6 +603,21 @@ PROJECT CASE STUDIES
 /* *******************************************
 ABOUT
 ******************************************** */
+
+
+.about {
+  margin: 50px auto;
+  padding: 0 30px 0;
+}
+
+.about h1 {
+	font-family: 'Playfair Display', serif;
+	display: inline-block;
+	font-size: 3em;
+	color: #3C4857;
+	font-weight: 700;
+	border-bottom: 4px solid #FEE06E;
+}
 
 
 .tldr {
