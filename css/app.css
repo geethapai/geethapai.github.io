@@ -112,7 +112,8 @@ li {
 
 
 
-* ==========Buttons styles============= */
+/* ==========Buttons styles============= */
+
 input::-moz-focus-inner,
 button::-moz-focus-inner {
 	border: 0;
@@ -555,6 +556,52 @@ PROJECT CASE STUDIES
 .vimeo-vids {
 	margin-bottom: 60px;
 }
+
+
+/*--------------------------*/
+/* design iterations slides */
+/*--------------------------*/
+
+.slide-container {
+	width: 1072.5px
+}
+
+
+.mySlides {
+	display: none;
+	width: 100%;
+}
+
+
+.mySlides2 {
+	display: none;
+	width: 100%;
+}
+
+
+
+.slidebuttonContainer {
+	text-align: center;
+	margin: 0px 0 56px;
+}
+
+
+.slide-button {
+	font-size: 1.5em;
+    padding: 10px;
+    color: #3C4857;
+}
+
+.slide-button:hover {
+	color: #0098FF;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+
+
 
 
 
