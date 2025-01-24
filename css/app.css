@@ -572,6 +572,17 @@ figcaption {
 }
 
 
+.card a {
+  color: #3C4857 !important;  /* Ensures the default color for links b/c of inheritence issue */
+}
+
+.card a:hover .portfolio-titles,
+.card a:hover .portfolio-caption {
+    color: #6C809A;  /* Hover color */
+    
+}
+
+
 
 /*====== product verticals section =====*/
 
