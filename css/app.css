@@ -571,16 +571,27 @@ figcaption {
 	display: inline-block;
 }
 
-
-.card a {
-  color: #3C4857 !important;  /* Ensures the default color for links b/c of inheritence issue */
+/* Default state for the card links */
+.card {
+    transition: box-shadow 0.3s ease;  
 }
+
 
 .card a:hover .portfolio-titles,
 .card a:hover .portfolio-caption {
-    color: #6C809A;  /* Hover color */
-    
+    color: #6C809A;  
+    text-decoration: none;  /* No underline */
 }
+
+
+.card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
+}
+
+.card a {
+    color: #3C4857 !important;  /* Ensures the default color for links b/c of inheritance issue */
+}
+
 
 
 
